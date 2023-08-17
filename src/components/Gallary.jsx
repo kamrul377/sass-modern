@@ -26,10 +26,10 @@ const Gallary = () => {
                     <p className='text-secondary text-[18px] text-center'>Working space</p>
                     <h1 className='w-full lg:w-[60%] mx-auto text-primary text-3xl font-normal'>Let’s meet our interior room decoration</h1>
                 </div>
-                <div className="images grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+                <div className="images grid sm:grid-cols-3 lg:grid-cols-3 gap-4 mt-6 justify-center">
                     {
                         images.map((img, index) => (
-                            <div key={index} className={`${index === 3 && "mt-[-99px]"} ${index === 5 && 'mt-[-60px]'}`}>
+                            <div key={index} className={`${index === 3 && "sm:mt-[-99px]"} ${index === 5 && 'sm:mt-[-60px]'}`}>
                                 <img src={img.image} key={index} alt="" />
                             </div>
                         ))

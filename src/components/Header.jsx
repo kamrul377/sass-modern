@@ -9,7 +9,7 @@ const Header = () => {
         <div className='header h-[900px]'>
             <Navbar />
 
-            <div className="box bg-[#ffffffc4] w-[520px] ml-32 mt-20 px-4 py-8 space-y-8 rounded shadow-lg">
+            <div className="box bg-[#ffffffc4] w-[90%] md:w-[520px] mx-auto md:ml-32 mt-20 px-4 py-8 space-y-8 rounded shadow-lg">
                 <h1 className='text-[48px] font-bold !text-primary '>Coworking space that
                     will feel like home.</h1>
 

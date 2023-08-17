@@ -30,15 +30,15 @@ const Feature = () => {
 
     return (
         <div>
-            <div className="container flex justify-between relative my-5" >
-                <div className="content basis-[55%] w-full py-6 space-y-7">
-                    <h1 className='text-primary text-[40px]'>Some good place to where <br /> can build your startup business</h1>
+            <div className="container sm:flex justify-between relative my-5" >
+                <div className="content basis-[55%] w-full py-6 space-y-3 md:space-y-7">
+                    <h1 className='text-primary text-[25px] md:text-[40px]'>Some good place to where <br /> can build your startup business</h1>
                     <h5 className='text-primary text-[14px]'>Coworking offers beautifully crafted workspaces <br /> where people can create
 
                         connect,  and grow their businesses at prime brlocations in multiple cities.</h5>
 
 
-                    <div className=' flex my-4 gap-4'>
+                    <div className=' flex my-4 gap-4  md:bg-inherit'>
 
                         {
                             featureItems?.map((i, index) => {
@@ -55,7 +55,7 @@ const Feature = () => {
                     </div>
 
                 </div>
-                <div className="image basis-[45%]">
+                <div className="image basis-[45%] ">
                     <img src={featureimg} alt="" />
                 </div>
                 {/* absolute king section */}
